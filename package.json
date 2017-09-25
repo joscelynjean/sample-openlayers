@@ -1,0 +1,23 @@
+{
+  "name": "sample-openlayers",
+  "version": "1.0.0",
+  "description": "OpenLayers experimentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joscelynjean/sample-openlayers.git"
+  },
+  "author": "Joscelyn Jean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joscelynjean/sample-openlayers/issues"
+  },
+  "homepage": "https://github.com/joscelynjean/sample-openlayers#readme",
+  "dependencies": {
+    "express": "^4.15.5"
+  }
+}
