@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Catch a hacker! The game</title>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.3.3/ol.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.3.3/ol.css"/>
+
+        <!-- Common files -->
+        <link rel="stylesheet" href="/assets/common.css"/>
+        <link rel="stylesheet" href="assets/specific.css"/>
+        <script src="/assets/common.js"></script>
+
+    </head>
+    <body>
+        <h1>Catch a hacker</h1>
+
+        <input type="button" value="Start" />
+
+        <div>
+            <span id="question">Where the Montreal Canadiens does play their regular season home games?</span>
+        </div>
+
+        <div>
+            <span id="remainingValue"></span>
+        </div>
+
+        <div id="map"></div>
+            
+        <!-- Load application -->
+        <script src="assets/specific.js"></script>
+    </body>
+</html>
